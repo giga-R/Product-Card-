@@ -1,0 +1,58 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+    android:layout_width="250dp"
+    android:layout_height="250dp"
+        android:scaleType="centerCrop"
+
+        android:layout_margin="20dp"
+    android:src="@mipmap/shoe"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Stylish Nike Shoes for Men"
+        android:textSize="22dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_margin="20dp"
+        android:text="Lightweight,Breathable\nNon Slip,Shockproof\nComfort Sole,Flexible Walk"
+        android:textSize="17dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_margin="20dp"
+        android:text="₹999"
+        android:textStyle="bold"
+        android:textSize="23dp"
+        android:textColor="#042E02"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Add to Cart"
+        android:textStyle="bold"
+        android:background="#FFC107"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_marginTop="20dp"
+        android:text="buy now"
+        android:textStyle="bold"
+        android:background="#FFC107"/>
+</LinearLayout>
